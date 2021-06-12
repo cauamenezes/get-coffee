@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+header {
+    height: 9vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10vw;
+    float: left;
+	background: #FFFFFF;
+   -webkit-box-shadow: 0px 3px 5px 0px rgb(231, 226, 231);
+   -moz-box-shadow: 0px 3px 5px 0px rgb(236, 230, 236);
+   box-shadow: 0px 3px 5px 0px rgb(219, 214, 219);
+   position: relative;
+   z-index: 2;
+}
+
+.links ul {
+    gap: 20px;
+    list-style-type: none;
+}
+
+.links a {
+    color: #242424;
+    text-decoration: none;
+    font-size: 20px;
+    user-select: none;
+    transition: all 1s;
+}
+
+.logo img {
+    display: flex;
+    align-items: flex-start;
+}
+
+.links ul {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.links a {
+    text-decoration: none;
+    user-select: none;
+    transition: all 0.5s;
+}
+
+.links a:hover {
+    color: #FCA60F;
+}
+
+main {
+    padding: 20vh 10vw;
+    flex-grow: 1;
+}
+
+main h1 {
+    font-size: 35px;
+    max-width: 570px;
+    position: relative;
+    z-index: 1;
+    top: 100px;
+}
+
+.botão {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    width: 300px;
+    height: 60px;
+    background-color: #FCA60F;
+    margin-top: 30px;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 1;
+    top: 480px;
+}
+
+.botão:hover {
+    border: solid 1px #FCA60F;
+    background-color: #242424;
+    transition: all .5s;
+}
+
+.redesSociais {
+    position: absolute;
+    z-index: 1;
+    top: 68vh;
+    left: 10.5vw;
+}
+
+.copo {
+    position:absolute;
+    top: 28vh;
+    right: 100px;
+    z-index: 1;
+}
+
+.forma1 {
+    position:absolute;
+    top: 20vh;
+    left: 0;
+    z-index: 0;
+}
+
+.forma2 {
+    position:absolute;
+    top: 8vh;
+    right: 0;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 175px;
+}
+
+.mouse {
+    width: 40px;
+    height: 40px;
+}
