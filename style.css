@@ -16,12 +16,12 @@ header {
     align-items: center;
     padding: 0 10vw;
     float: left;
-	background: #FFFFFF;
-   -webkit-box-shadow: 0px 3px 5px 0px rgb(231, 226, 231);
-   -moz-box-shadow: 0px 3px 5px 0px rgb(236, 230, 236);
-   box-shadow: 0px 3px 5px 0px rgb(219, 214, 219);
-   position: relative;
-   z-index: 2;
+    background: #FFFFFF;
+    -webkit-box-shadow: 0px 3px 5px 0px rgb(231, 226, 231);
+    -moz-box-shadow: 0px 3px 5px 0px rgb(236, 230, 236);
+    box-shadow: 0px 3px 5px 0px rgb(219, 214, 219);
+    position: relative;
+    z-index: 2;
 }
 
 .links ul {
@@ -104,21 +104,21 @@ main h1 {
 }
 
 .copo {
-    position:absolute;
+    position: absolute;
     top: 28vh;
     right: 100px;
     z-index: 1;
 }
 
 .forma1 {
-    position:absolute;
+    position: absolute;
     top: 20vh;
     left: 0;
     z-index: 0;
 }
 
 .forma2 {
-    position:absolute;
+    position: absolute;
     top: 8vh;
     right: 0;
 }
