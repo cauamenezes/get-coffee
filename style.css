@@ -16,30 +16,18 @@ header {
     align-items: center;
     padding: 0 10vw;
     float: left;
-    background: #FFFFFF;
     -webkit-box-shadow: 0px 3px 5px 0px rgb(231, 226, 231);
-    -moz-box-shadow: 0px 3px 5px 0px rgb(236, 230, 236);
-    box-shadow: 0px 3px 5px 0px rgb(219, 214, 219);
+    box-shadow: 0px 3px 5px 0px rgb(231, 226, 231);
     position: relative;
     z-index: 2;
-}
-
-.links ul {
-    gap: 20px;
-    list-style-type: none;
 }
 
 .links a {
     color: #242424;
     text-decoration: none;
-    font-size: 20px;
     user-select: none;
-    transition: all 1s;
-}
-
-.logo img {
-    display: flex;
-    align-items: flex-start;
+    font-size: 20px;
+    transition: all 0.5s;
 }
 
 .links ul {
@@ -50,19 +38,12 @@ header {
     list-style-type: none;
 }
 
-.links a {
-    text-decoration: none;
-    user-select: none;
-    transition: all 0.5s;
-}
-
 .links a:hover {
     color: #FCA60F;
 }
 
 main {
     padding: 20vh 10vw;
-    flex-grow: 1;
 }
 
 main h1 {
@@ -94,6 +75,10 @@ main h1 {
     border: solid 1px #FCA60F;
     background-color: #242424;
     transition: all .5s;
+}
+
+main a {
+    text-decoration: none;
 }
 
 .redesSociais {
@@ -129,10 +114,47 @@ footer {
     align-items: center;
     font-size: 20px;
     font-weight: bold;
-    padding-top: 175px;
+    padding-top: 275px;
 }
 
 .mouse {
     width: 40px;
     height: 40px;
+}
+
+/* Tablets */
+
+@media screen and (max-width: 768px) {
+    main h1 {
+        max-width: 350px;
+    }
+    .botão {
+        top: 500px;
+    }
+    footer {
+        display: none;
+    }
+}
+
+/* Celulares */
+
+@media screen and (max-width: 600px) {
+    .links ul {
+        display: none;
+    }
+    .forma2 {
+        display: none;
+    }
+    .copo {
+        top: 740px;
+        left: 10vw;
+        max-height: 300px;
+    }
+    .redesSociais {
+        top: 625px;
+    }
+    .botão {
+        width: 245px;
+        font-size: 20px;
+    }
 }
